@@ -1,0 +1,4 @@
+src/typings/**/*.ts
+webpack.config.js
+.eslintrc.js
+

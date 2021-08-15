@@ -1,6 +1,6 @@
 {
   "name": "@sop/itunes-search",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "iTunes Search Package made by StreamOverlayPro. it performes blazing fast searches to iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!",
   "main": "dist",
   "keywords": [
@@ -24,7 +24,7 @@
     "lint:watch": "nodemon --watch .eslintrc.js --exec \"npm run lint\"",
     "prepare": "husky install",
     "commit": "git add . && npm run cz",
-    "lint-staged":"lint-staged"
+    "lint-staged": "lint-staged"
   },
   "author": "shynox",
   "license": "MIT",

@@ -1,5 +1,5 @@
 {
-  "name": "@sop/itunes-search",
+  "name": "@tbogard/itunes-search",
   "version": "1.0.0",
   "description": "iTunes Search Package made by StreamOverlayPro. it performes blazing fast searches to iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!",
   "main": "dist",
@@ -73,6 +73,7 @@
   },
   "homepage": "https://github.com/BilalTaner/itunes-web-api#readme",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "example": "examples"
   }
 }

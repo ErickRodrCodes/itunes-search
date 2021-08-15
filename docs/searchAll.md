@@ -56,7 +56,7 @@ Please Check [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For La
 ### Node
 
 ```js
-const { searchAll } = require('@sop/itunes-search');
+const { searchAll } = require('@tbogard/itunes-search');
 const search = async () => {
   const result = await searchAll('Hikaru Utada', {
     limit: 3,

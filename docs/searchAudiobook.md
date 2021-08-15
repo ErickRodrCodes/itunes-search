@@ -25,7 +25,7 @@ Please Check [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For La
 ### Node
 
 ```js
-const { searchAudiobook } = require('@sop/itunes-search');
+const { searchAudiobook } = require('@tbogard/itunes-search');
 const search = async () => {
   const result = await searchAudiobook('javascript');
   console.log(JSON.stringify(result, null, 2));

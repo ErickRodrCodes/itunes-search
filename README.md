@@ -27,7 +27,7 @@ $ yarn add @sop/itunes-search
 ES5 Syntax
 
 ```js
-const { searchSong } = require('@sop/itunes-search');
+const { searchSong } = require('@tbogard/itunes-search');
 searchSong('Summerhouse in Winter - Bing Satellites').then((result) =>
   console.log(result)
 );

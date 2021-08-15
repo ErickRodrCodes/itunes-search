@@ -25,7 +25,7 @@ Please Check [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For La
 ### Node
 
 ```js
-const { searchApp } = require('@sop/itunes-search');
+const { searchApp } = require('@tbogard/itunes-search');
 const search = async () => {
   const result = await searchApp('Captain Tsubasa', {
     limit: 3,

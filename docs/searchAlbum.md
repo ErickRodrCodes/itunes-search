@@ -25,7 +25,7 @@ Please Check [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For La
 ### Node
 
 ```js
-const { searchAlbum } = require('@sop/itunes-search');
+const { searchAlbum } = require('@tbogard/itunes-search');
 const search = async () => {
   const result = await searchAlbum('La Camisa Negra - Juanes');
   console.log(JSON.stringify(result, null, 2));

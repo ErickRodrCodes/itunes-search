@@ -1,7 +1,7 @@
 {
   "name": "@tbogard/itunes-search",
   "version": "1.0.3",
-  "description": "iTunes Search Package made by StreamOverlayPro. it performes blazing fast searches to iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!",
+  "description": "An iTunes Search library that uses Apple Web Search API. It performes blazing fast searches on iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!",
   "main": "dist",
   "keywords": [
     "itunes",

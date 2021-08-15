@@ -27,7 +27,9 @@ Please Check [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For La
 ```js
 const { searchSong } = require('@tbogard/itunes-search');
 const search = async () => {
-  const result = await searchSong('La Camisa Negra - Juanes');
+  const result = await searchSong('Ordinary World - Duran Duran', {
+    limit: 3,
+  });
   console.log(result);
 };
 search();
@@ -40,7 +42,9 @@ search();
 <script type="text/javascript">
   const { searchSong } = iTunesSearch;
   const search = async () => {
-    const result = await searchSong('La Camisa Negra - Juanes');
+    const result = await searchSong('Ordinary World - Duran Duran', {
+      limit: 3,
+    });
     console.log(result);
   };
   search();
@@ -51,40 +55,108 @@ search();
 
 ```json
 {
-  "resultCount": 1,
+  "resultCount": 3,
   "results": [
     {
       "wrapperType": "track",
       "kind": "song",
-      "artistId": 103856,
-      "collectionId": 1445885800,
-      "trackId": 1445886064,
-      "artistName": "Juanes",
-      "collectionName": "Tr3s Presents Juanes MTV Unplugged (Deluxe Edition)",
-      "trackName": "La Camisa Negra",
-      "collectionCensoredName": "Tr3s Presents Juanes MTV Unplugged (Deluxe Edition)",
-      "trackCensoredName": "La Camisa Negra (MTV Unplugged)",
-      "artistViewUrl": "https://music.apple.com/us/artist/juanes/103856?uo=4",
-      "collectionViewUrl": "https://music.apple.com/us/album/la-camisa-negra-mtv-unplugged/1445885800?i=1445886064&uo=4",
-      "trackViewUrl": "https://music.apple.com/us/album/la-camisa-negra-mtv-unplugged/1445885800?i=1445886064&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/44/bb/0d/44bb0daa-fc7a-868f-390c-1772b898c350/mzaf_11033594278729293277.plus.aac.p.m4a",
-      "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1a/c3/ca/1ac3ca18-3dd6-a7c1-5eac-05ed9cd7dacc/source/30x30bb.jpg",
-      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1a/c3/ca/1ac3ca18-3dd6-a7c1-5eac-05ed9cd7dacc/source/60x60bb.jpg",
-      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1a/c3/ca/1ac3ca18-3dd6-a7c1-5eac-05ed9cd7dacc/source/100x100bb.jpg",
-      "collectionPrice": 11.99,
+      "artistId": 487384,
+      "collectionId": 696247010,
+      "trackId": 696247422,
+      "artistName": "Duran Duran",
+      "collectionName": "Duran Duran (The Wedding Album)",
+      "trackName": "Ordinary World",
+      "collectionCensoredName": "Duran Duran (The Wedding Album)",
+      "trackCensoredName": "Ordinary World",
+      "artistViewUrl": "https://music.apple.com/us/artist/duran-duran/487384?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/ordinary-world/696247010?i=696247422&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/ordinary-world/696247010?i=696247422&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/79/8e/5a798e77-28cb-d1dd-b7ca-827d32e75a78/mzaf_12921270147858871715.plus.aac.p.m4a",
+      "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/67/dc/cc/67dccc7e-2988-7a56-777d-b788ecf4d487/source/30x30bb.jpg",
+      "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/67/dc/cc/67dccc7e-2988-7a56-777d-b788ecf4d487/source/60x60bb.jpg",
+      "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/67/dc/cc/67dccc7e-2988-7a56-777d-b788ecf4d487/source/100x100bb.jpg",
+      "collectionPrice": 9.99,
       "trackPrice": 1.29,
-      "releaseDate": "2012-05-29T12:00:00Z",
+      "releaseDate": "1993-02-11T08:00:00Z",
       "collectionExplicitness": "notExplicit",
       "trackExplicitness": "notExplicit",
       "discCount": 1,
       "discNumber": 1,
-      "trackCount": 14,
-      "trackNumber": 9,
-      "trackTimeMillis": 225965,
+      "trackCount": 13,
+      "trackNumber": 2,
+      "trackTimeMillis": 340200,
       "country": "USA",
       "currency": "USD",
-      "primaryGenreName": "Pop Latino",
+      "primaryGenreName": "Pop",
       "isStreamable": true
+    },
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 487384,
+      "collectionId": 693602046,
+      "trackId": 693602520,
+      "artistName": "Duran Duran",
+      "collectionName": "Greatest",
+      "trackName": "Ordinary World",
+      "collectionCensoredName": "Greatest",
+      "trackCensoredName": "Ordinary World",
+      "artistViewUrl": "https://music.apple.com/us/artist/duran-duran/487384?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/ordinary-world/693602046?i=693602520&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/ordinary-world/693602046?i=693602520&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c7/ea/87/c7ea8732-4416-9f5c-6ddb-c94a1cd6ea2b/mzaf_8665470121722723342.plus.aac.p.m4a",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/2f/1d/47/2f1d47dc-7952-3dec-5cad-4c354ce79607/source/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/2f/1d/47/2f1d47dc-7952-3dec-5cad-4c354ce79607/source/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/2f/1d/47/2f1d47dc-7952-3dec-5cad-4c354ce79607/source/100x100bb.jpg",
+      "collectionPrice": 11.99,
+      "trackPrice": 1.29,
+      "releaseDate": "1998-11-03T12:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 19,
+      "trackNumber": 4,
+      "trackTimeMillis": 277760,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Alternative",
+      "isStreamable": true
+    },
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 487384,
+      "collectionId": 716374900,
+      "trackId": 716376461,
+      "artistName": "Duran Duran",
+      "collectionName": "NOW That's What I Call the 90's",
+      "trackName": "Ordinary World",
+      "collectionCensoredName": "NOW That's What I Call the 90's",
+      "trackCensoredName": "Ordinary World",
+      "collectionArtistId": 4035426,
+      "collectionArtistName": "Various Artists",
+      "artistViewUrl": "https://music.apple.com/us/artist/duran-duran/487384?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/ordinary-world/716374900?i=716376461&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/ordinary-world/716374900?i=716376461&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/43/82/3c/43823c67-2c26-6472-bbce-ca48b12e7f6e/mzaf_7638943305265166988.plus.aac.p.m4a",
+      "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/9f/99/07/9f990707-cf0c-9275-334d-a4d0f5522d2c/source/30x30bb.jpg",
+      "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/9f/99/07/9f990707-cf0c-9275-334d-a4d0f5522d2c/source/60x60bb.jpg",
+      "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music/v4/9f/99/07/9f990707-cf0c-9275-334d-a4d0f5522d2c/source/100x100bb.jpg",
+      "collectionPrice": 34.99,
+      "trackPrice": -1,
+      "releaseDate": "1993-02-11T12:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 70,
+      "trackNumber": 35,
+      "trackTimeMillis": 340427,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Pop",
+      "isStreamable": false
     }
   ]
 }

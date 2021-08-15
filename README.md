@@ -13,13 +13,13 @@ iTunes Search Package for node.js, made by StreamOverlayPro. iTunes Web API perf
 ## Installation
 
 ```bash
-$ npm i @sop/itunes-search
+$ npm i @tbogard/itunes-search
 ```
 
 or if you use yarn
 
 ```bash
-$ yarn add @sop/itunes-search
+$ yarn add @tbogard/itunes-search
 ```
 
 ## Examples

@@ -31,7 +31,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BilalTaner/itunes-web-api.git"
+    "url": "git+https://github.com/tbogard/itunes-search.git"
   },
   "dependencies": {
     "axios": "^0.21.1"
@@ -69,9 +69,9 @@
     "webpack-node-externals": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/BilalTaner/itunes-web-api/issues"
+    "url": "https://github.com/tbogard/itunes-search/issues"
   },
-  "homepage": "https://github.com/BilalTaner/itunes-web-api#readme",
+  "homepage": "https://github.com/tbogard/itunes-search#readme",
   "directories": {
     "doc": "docs",
     "example": "examples"

@@ -60,16 +60,7 @@ export class iTunesSearch implements IiTunesSearch {
       const { data } = await this.iTunesFetch.get(`/search?term=${encodeURI(term)}&${querystring.toString()}`);
       return data;
     } catch (e) {
-      const useError: Error = e;
-      const { message, name, stack } = useError;
-      // eslint-disable-next-line no-console
-      console.warn('Unexpected error while searching. Please see the log below.');
-      // eslint-disable-next-line no-console
-      console.warn({ message, name, stack });
-      return {
-        resultCount: 0,
-        results: []
-      };
+      throw new Error(e);
     }
   }
 }

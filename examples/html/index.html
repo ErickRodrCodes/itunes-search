@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@sop/itunes-search example</title>
+</head>
+<body>
+  <pre>
+
+  </pre>
+  <script src="../../build/dist/itunesSearch.min.js"></script>
+  <script type="text/javascript">
+      const {searchSong} = iTunesSearch;
+      const search = async() => {
+        const result = await searchSong('La Camisa Negra - Juanes');
+        const formatted = JSON.stringify(result,null,2);
+        document.querySelector('pre').innerText = formatted
+      }
+      search();
+  </script>
+</body>
+</html>

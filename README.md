@@ -1,44 +1,46 @@
 # iTunes Search
 
-This package will allow you to search and get metadata of music, tv shows or artist with the iTunes Web Search API.
+[![npm](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/tbogard/itunes-search/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square)](http://makeapullrequest.com)
+[![node](https://img.shields.io/badge/node-%3E=_12.0-yellowgreen.svg?style=flat-square)](https://nodejs.org)
+
+iTunes Search Package for node.js, made by StreamOverlayPro. iTunes Web API performs blazing fast searches to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the AppStore, books, audiobooks, and podcasts inside Apple Search!
 
 ## Requirements
 
 - Node 12 or above (LTS recommended)
 
-## Usages
+## Installation
+
+```bash
+$ npm i @sop/itunes-search
+```
+
+or if you use yarn
+
+```bash
+$ yarn add @sop/itunes-search
+```
+
+## Examples
 
 ES5 Syntax
 
 ```js
-const iTunesSearch = require('itunes-search');
-const iTunes = new iTunesSearch();
-iTunes
-  .searchSong('Summerhouse in Winter - Bing Satellites', {
-    limit: 1,
-    language: 'en',
-    country: 'US',
-  })
-  .then((result) => console.log(result)); // -> { song object }
+const { searchSong } = require('@sop/itunes-search');
+searchSong('Summerhouse in Winter - Bing Satellites').then((result) =>
+  console.log(result)
+);
 ```
 
 ES6 Syntax
 
 ```js
-import iTunesSearch from 'itunes-search';
+import { searchSong } from 'itunes-search';
 
 const main = async () => {
-  const iTunes = new iTunesSearch();
-  const result = await iTunes.searchSong(
-    'Summerhouse in Winter - Bing Satellites',
-    {
-      limit: 1,
-      language: 'en',
-      country: 'US',
-    }
-  );
-
-  console.log(result); // -> { song object }
+  const result = await searchSong('Summerhouse in Winter - Bing Satellites');
+  console.log(result);
 };
 
 main();
@@ -96,7 +98,7 @@ if you don't get results, you will get this:
 }
 ```
 
-## Explore the API
+## Explore additional methods to use this api
 
 - [searchAlbum](./docs/searchAlbum.md)
 - [searchAll](./docs/searchAll.md)

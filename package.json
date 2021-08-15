@@ -23,7 +23,8 @@
     "eslint": "eslint",
     "lint:watch": "nodemon --watch .eslintrc.js --exec \"npm run lint\"",
     "prepare": "husky install",
-    "commit": "git add . && npm run cz"
+    "commit": "git add . && npm run cz",
+    "lint-staged":"lint-staged"
   },
   "author": "shynox",
   "license": "MIT",

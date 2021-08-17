@@ -13,7 +13,6 @@
     ".nvmrc",
     ".prettierrc",
     "jest.config.js",
-    "README.md",
     "tsconfig.eslint.json",
     "tsconfig.json",
     "webpack.config.js"

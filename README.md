@@ -100,6 +100,56 @@ if you don't get results, you will get this:
 }
 ```
 
+## Distribution structure
+
+Here a quick view of the files you would see on this distribution:
+
+```
+@tbogard/itunes-search
+┣ dist/                  // distribution folder
+┃ ┣ iTunesSearch/       // iTunesSearch class
+┃ ┃ ┣ index.d.ts
+┃ ┃ ┣ index.js
+┃ ┃ ┣ interfaces.d.ts
+┃ ┃ ┗ interfaces.js
+┃ ┣ typings/           // types used on the app
+┃ ┃ ┣ types.d.ts
+┃ ┃ ┗ types.js
+┃ ┣ web.minified/      // web version of this package
+┃ ┃ ┗ itunesSearch.min.js
+┃ ┣ index.d.ts
+┃ ┗ index.js          // <== Main file
+┣ docs/                // documentation of this package
+┃ ┣ searchAlbum.md
+┃ ┣ searchAll.md
+┃ ┣ searchApp.md
+┃ ┣ searchArtist.md
+┃ ┣ searchAudiobook.md
+┃ ┣ searchBook.md
+┃ ┣ searchMovie.md
+┃ ┣ searchMusicVideo.md
+┃ ┣ searchPodcast.md
+┃ ┗ searchSong.md
+┣ examples/            // practical examples to understand how to use it.
+┃ ┣ html/
+┃ ┃ ┗ index.html     // web browser example
+┃ ┗ node/
+┃   ┗ index.js       // node example
+┣ src/                // source files (everything in TS)
+┃ ┣ iTunesSearch/
+┃ ┃ ┣ index.ts
+┃ ┃ ┗ interfaces.ts
+┃ ┣ typings/
+┃ ┃ ┗ types.ts
+┃ ┗ index.ts
+```
+
+## Development and Building
+
+1. Ensure you have cloned this repo, and run `npm i` to install all the development dependencies to work with.
+2. To develop, use the `./src` folder and add/modify files contained on it.
+3. If needed to build for a fresh distribuiton, run `npm run build`
+
 ## Explore additional methods to use this api
 
 - [searchAlbum](./docs/searchAlbum.md)
@@ -112,3 +162,14 @@ if you don't get results, you will get this:
 - [searchMusicVideo](./docs/searchMusicVideo.md)
 - [searchPodcast](./docs/searchPodcast.md)
 - [searchSong](./docs/searchSong.md)
+
+## Do you like this program?
+
+Donate any dogecoin to this wallet address:
+`DFKcaAVmda9jTL59CBamSHEcYytXhd8Q2G`
+
+![DFKcaAVmda9jTL59CBamSHEcYytXhd8Q2G](./docs/QRCode.png)
+
+## Contact
+
+Please use the issues section of this repo to contact me with the subject [CONTACT] <= Exactly as is shown, with brackets.

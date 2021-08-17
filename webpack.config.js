@@ -9,9 +9,9 @@ module.exports = {
     __dirname:false
   },
   // externals: [nodeExternals()], // removes node_modules from your final bundle
-  entry: './build/index.js', // make sure this matches the main root of your code
+  entry: './dist/index.js', // make sure this matches the main root of your code
   output: {
-    path: path.join(__dirname, 'build','dist'), // this can be any path and directory you want
+    path: path.join(__dirname, 'dist','web.minified'), // this can be any path and directory you want
     filename: 'itunesSearch.min.js',
     library: 'iTunesSearch',
     libraryTarget: 'window',

@@ -1,0 +1,27 @@
+{
+  "files": [
+    ".husky",
+    "examples",
+    ".clean-publish",
+    ".czrc",
+    ".editorconfig",
+    ".eslintignore",
+    ".eslintrc.js",
+    ".gitignore",
+    ".lintstagedrc",
+    ".npmignore",
+    ".nvmrc",
+    ".prettierrc",
+    "jest.config.js",
+    "README.md",
+    "tsconfig.eslint.json",
+    "tsconfig.json",
+    "webpack.config.js"
+  ],
+  "fields": [
+    "scripts",
+    "directories",
+    "devDependencies"
+  ],
+  "access": "public"
+}

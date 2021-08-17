@@ -15,6 +15,7 @@
     "format": "prettier --write .",
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "publish": "clean-publish",
     "tsc": "tsc",
     "cz": "cz",
     "clean:dist": "rimraf ./dist/**/*",
@@ -28,7 +29,7 @@
     "commit": "git add . && npm run cz",
     "lint-staged": "lint-staged"
   },
-  "author": "shynox",
+  "author": "tbogard",
   "license": "MIT",
   "types": "dist/index.d.ts",
   "repository": {
@@ -42,6 +43,7 @@
     "@types/jest": "^26.0.24",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
+    "clean-publish": "^2.2.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",

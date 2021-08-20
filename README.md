@@ -38,7 +38,7 @@ searchSong('Summerhouse in Winter - Bing Satellites').then((result) =>
 ES6 Syntax
 
 ```js
-import { searchSong } from 'itunes-search';
+import { searchSong } from '@tbogard/itunes-search';
 
 const main = async () => {
   const result = await searchSong('Summerhouse in Winter - Bing Satellites');

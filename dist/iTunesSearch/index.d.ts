@@ -15,5 +15,6 @@ export declare class iTunesSearch implements IiTunesSearch {
     searchPodcast: (term: string, options?: ISearchAllOptions | undefined) => Promise<ReturnType>;
     searchAll: (term: string, options?: ISearchAllOptions | undefined) => Promise<ReturnType>;
     private performSearch;
+    private validate;
 }
 //# sourceMappingURL=index.d.ts.map

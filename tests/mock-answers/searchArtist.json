@@ -1,0 +1,15 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Hikaru Utada",
+      "artistLinkUrl": "https://music.apple.com/us/artist/hikaru-utada/18756224?uo=4",
+      "artistId": 18756224,
+      "amgArtistId": 765200,
+      "primaryGenreName": "J-Pop",
+      "primaryGenreId": 27
+    }
+  ]
+}

@@ -3,45 +3,59 @@ export type ReturnType = {
   results: any[];
 };
 
-export type EntityType = "music" | "musicVideo" |
-  "software" |
-  "movie" |
+export type EntityType =
   "album" |
   "allArtist" |
-  "podcast" |
-  "musicVideo" |
-  "mix" |
-  "audiobook" |
-  "tvSeason" |
   "allTrack" |
+  "audiobook" |
+  "audiobookAuthor" |
   "ebook" |
-  undefined;
-  
-export type AttributeType = "actorTerm" |
-  "languageTerm" |
+  "iPadSoftware" |
+  "macSoftware" |
+  "mix" |
+  "movie" |
+  "movieArtist" |
+  "musicArtist" |
+  "musicTrack" |
+  "musicVideo" |
+  "podcast" |
+  "podcastAuthor" |
+  "shortFilm" |
+  "shortFilmArtist" |
+  "software" |
+  "song" |
+  "tvEpisode" |
+  "tvSeason";
+
+export type AttributeType =
+  "actorTerm" |
+  "albumTerm" |
   "allArtistTerm" |
-  "tvEpisodeTerm" |
-  "shortFilmTerm" |
-  "directorTerm" |
-  "releaseYearTerm" |
-  "titleTerm" |
-  "featureFilmTerm" |
-  "ratingIndex" |
-  "keywordsTerm" |
-  "descriptionTerm" |
-  "authorTerm" |
-  "genreIndex" |
-  "mixTerm" |
   "allTrackTerm" |
   "artistTerm" |
+  "authorTerm" |
   "composerTerm" |
-  "tvSeasonTerm" |
-  "producerTerm" |
-  "ratingTerm" |
-  "songTerm" |
+  "descriptionTerm" |
+  "directorTerm" |
+  "featureFilmTerm" |
+  "genreIndex" |
+  "keywordsTerm" |
+  "languageTerm" |
+  "mixTerm" |
   "movieArtistTerm" |
+  "movieTerm" |
+  "producerTerm" |
+  "ratingIndex" |
+  "ratingTerm" |
+  "releaseYearTerm" |
+  "shortFilmTerm" |
   "showTerm" |
-"movieTerm" |
-  "albumTerm";
-   
+  "softwareDeveloper" |
+  "songTerm" |
+  "titleTerm" |
+  "tvEpisodeTerm" |
+  "tvSeasonTerm";
+
+
+
 

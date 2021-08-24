@@ -1,0 +1,29 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "wrapperType": "track",
+      "kind": "music-video",
+      "artistId": 1402736471,
+      "trackId": 1515958993,
+      "artistName": "MBP",
+      "trackName": "U Can't Touch This",
+      "trackCensoredName": "U Can't Touch This (MBP Version)",
+      "artistViewUrl": "https://music.apple.com/us/artist/mbp/1402736471?uo=4",
+      "trackViewUrl": "https://music.apple.com/us/music-video/u-cant-touch-this-mbp-version/1515958993?uo=4",
+      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video123/v4/ab/b1/48/abb148be-f72b-a155-5af8-ba31a9cd6669/mzvf_8622749658633831041.640x480.h264lc.U.p.m4v",
+      "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/93/f0/68/93f06891-3479-8f99-7dfd-8d4616db45d2/source/30x30bb.jpg",
+      "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/93/f0/68/93f06891-3479-8f99-7dfd-8d4616db45d2/source/60x60bb.jpg",
+      "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/93/f0/68/93f06891-3479-8f99-7dfd-8d4616db45d2/source/100x100bb.jpg",
+      "collectionPrice": 1.99,
+      "trackPrice": 1.99,
+      "releaseDate": "2020-06-01T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "trackTimeMillis": 201172,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Dance"
+    }
+  ]
+}

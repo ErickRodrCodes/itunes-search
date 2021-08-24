@@ -4,6 +4,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square)](http://makeapullrequest.com)
 [![node](https://img.shields.io/badge/node-%3E=_12.0-yellowgreen.svg?style=flat-square)](https://nodejs.org)
 
+[![npm package](https://nodei.co/npm/@tbogard/itunes-search.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@tbogard/itunes-search)
+
 An iTunes Search library that uses Apple Web Search API.
 
 It performes blazing fast searches on iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!

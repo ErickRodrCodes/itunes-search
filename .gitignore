@@ -4,3 +4,7 @@ src/config.json
 build
 bundle
 output
+coverage
+.vscode
+.husky
+

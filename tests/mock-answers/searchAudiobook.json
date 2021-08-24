@@ -1,0 +1,28 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "wrapperType": "audiobook",
+      "artistId": 2036749,
+      "collectionId": 438363284,
+      "amgArtistId": 539409,
+      "artistName": "Herman Melville",
+      "collectionName": "Moby Dick: or the Whale (Unabridged)",
+      "collectionCensoredName": "Moby Dick: or the Whale (Unabridged)",
+      "artistViewUrl": "https://books.apple.com/us/author/herman-melville/id2036749?uo=4",
+      "collectionViewUrl": "https://books.apple.com/us/audiobook/moby-dick-or-the-whale-unabridged/id438363284?uo=4",
+      "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music/df/1b/77/mzi.ozmytnia.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music/df/1b/77/mzi.ozmytnia.jpg/100x100bb.jpg",
+      "collectionPrice": 15.99,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "© 2011 Trout Lake Media",
+      "country": "USA",
+      "currency": "USD",
+      "releaseDate": "2011-05-16T07:00:00Z",
+      "primaryGenreName": "Classics",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c8/93/f1/c893f1ff-0b6b-7f8a-8745-fea208e4f464/mzaf_1251110311494578713.std.aac.p.m4a",
+      "description": "<i>Moby-Dick</i> is widely considered to be the Great American Novel and a treasure of world literature. The story details the adventures of the wandering sailor Ishmael and his voyage on the whale ship <i>Pequod</i>, commanded by Captain Ahab. Ishmael soon learns that Ahab seeks one specific whale: Moby Dick, a ferocious, enigmatic white sperm whale. In a previous encounter, the whale destroyed Ahab's boat and bit off his leg. And Ahab intends to take revenge."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "wrapperType": "track",
+      "kind": "podcast",
+      "artistId": 121020699,
+      "collectionId": 81210923,
+      "trackId": 81210923,
+      "artistName": "CBS News Radio",
+      "collectionName": "60 Minutes",
+      "trackName": "60 Minutes",
+      "collectionCensoredName": "60 Minutes",
+      "trackCensoredName": "60 Minutes",
+      "artistViewUrl": "https://podcasts.apple.com/us/artist/cbs-news/121020699?uo=4",
+      "collectionViewUrl": "https://podcasts.apple.com/us/podcast/60-minutes/id81210923?uo=4",
+      "feedUrl": "https://rss.art19.com/60-minutes",
+      "trackViewUrl": "https://podcasts.apple.com/us/podcast/60-minutes/id81210923?uo=4",
+      "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Podcasts123/v4/71/00/32/71003255-307d-c645-9ac7-82f2e8063dba/mza_10235687874071911129.jpeg/30x30bb.jpg",
+      "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Podcasts123/v4/71/00/32/71003255-307d-c645-9ac7-82f2e8063dba/mza_10235687874071911129.jpeg/60x60bb.jpg",
+      "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Podcasts123/v4/71/00/32/71003255-307d-c645-9ac7-82f2e8063dba/mza_10235687874071911129.jpeg/100x100bb.jpg",
+      "collectionPrice": 0,
+      "trackPrice": 0,
+      "trackRentalPrice": 0,
+      "collectionHdPrice": 0,
+      "trackHdPrice": 0,
+      "trackHdRentalPrice": 0,
+      "releaseDate": "2021-05-24T01:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "trackCount": 320,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "News",
+      "artworkUrl600": "https://is5-ssl.mzstatic.com/image/thumb/Podcasts123/v4/71/00/32/71003255-307d-c645-9ac7-82f2e8063dba/mza_10235687874071911129.jpeg/600x600bb.jpg",
+      "genreIds": [
+        "1489",
+        "26"
+      ],
+      "genres": [
+        "News",
+        "Podcasts"
+      ]
+    }
+  ]
+}

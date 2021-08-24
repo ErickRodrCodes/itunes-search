@@ -18,16 +18,18 @@
     "publish": "clean-publish",
     "tsc": "tsc",
     "cz": "cz",
-    "clean:dist": "rimraf ./dist/**/*",
+    "clean:dist": "rimraf ./dist",
     "clean:dist:map": "rimraf ./dist/**/*.map",
-    "build": "npm run clean:dist && npm run tsc && webpack && npm run clean:dist:map",
+    "build": "npm run clean:dist && npm run tsc -- --sourceMap false && webpack",
     "lint": "eslint ./src/**/*.ts --no-cache",
     "lint:fix": "eslint ./src/**/*.ts --fix",
     "eslint": "eslint",
     "lint:watch": "nodemon --watch .eslintrc.js --exec \"npm run lint\"",
     "prepare": "husky install",
     "commit": "git add . && npm run cz",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "test": "jest --detectOpenHandles --no-cache --coverage --verbose",
+    "test:watch": "jest --watch"
   },
   "author": "tbogard",
   "license": "MIT",
@@ -41,6 +43,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
+    "@types/nock": "^11.1.0",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
     "clean-publish": "^2.2.0",
@@ -59,11 +62,12 @@
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
+    "nock": "^13.1.2",
     "node-loader": "^2.0.0",
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
-    "ts-jest": "^27.0.4",
+    "ts-jest": "^27.0.5",
     "ts-node": "^10.1.0",
     "ts-node-dev": "^1.1.8",
     "tsc-watch": "^4.4.0",
@@ -80,5 +84,8 @@
   "directories": {
     "doc": "docs",
     "example": "examples"
+  },
+  "engines": {
+    "node": "14.17.1"
   }
 }

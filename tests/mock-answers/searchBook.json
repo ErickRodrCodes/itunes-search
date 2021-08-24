@@ -1,0 +1,38 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Publication123/v4/96/45/1a/96451abe-ed2b-a8c2-c144-f1b5f88cc658/source/60x60bb.jpg",
+      "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Publication123/v4/96/45/1a/96451abe-ed2b-a8c2-c144-f1b5f88cc658/source/100x100bb.jpg",
+      "artistViewUrl": "https://books.apple.com/us/artist/herman-melville/2036749?uo=4",
+      "trackCensoredName": "Moby Dick",
+      "fileSizeBytes": 840064,
+      "formattedPrice": "Free",
+      "trackViewUrl": "https://books.apple.com/us/book/moby-dick/id395539950?uo=4",
+      "genreIds": [
+        "10042",
+        "38",
+        "9031"
+      ],
+      "releaseDate": "1851-10-17T08:00:00Z",
+      "artistIds": [
+        2036749
+      ],
+      "currency": "USD",
+      "description": "An Apple Books Classic edition.<br /><br />\nHerman Melville’s classic begins with one of the most famous opening lines in world literature: “Call me Ishmael.” <i>Moby Dick</i> was a commercial failure when it was first published in 1851, but during the 20th century, the book’s reputation grew and grew.<br /><br />\nThe novel features a memorable cast of characters, in particular the ivory-legged Captain Ahab, who lost a limb to the gargantuan white whale named Moby Dick. Now, Ahab’s sole obsession is hunting down the sea creature to exact his revenge. Heedless of warnings, Ahab risks ship and crew in his maniacal pursuit, bearing out Melville’s observation that  ”there is no folly of the beast of the earth which is not infinitely outdone by the madness of men.”",
+      "artistId": 2036749,
+      "artistName": "Herman Melville",
+      "genres": [
+        "Classics",
+        "Books",
+        "Fiction & Literature"
+      ],
+      "price": 0,
+      "trackId": 395539950,
+      "trackName": "Moby Dick",
+      "kind": "ebook",
+      "averageUserRating": 4,
+      "userRatingCount": 2046
+    }
+  ]
+}

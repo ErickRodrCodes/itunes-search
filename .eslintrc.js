@@ -153,5 +153,7 @@ module.exports = {
     ],
     "modules-newline/export-declaration-newline": 2,
     "modules-newline/import-declaration-newline": 2,
+    "jest/no-hooks": "off",
+    "jest/prefer-expect-assertions":"off"
   },
 }

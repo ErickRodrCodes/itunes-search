@@ -12,13 +12,13 @@ A method that will allow you to search a music video
 <b>Options Object</b>
 
 If you do not enter limit, lang or country values, the default language and country code are set to English. Limit Number default is 1.
-Please Check [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For Language and Country Codes.
+Please Check [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For Language and Country Codes.
 
 | Key      | Type   | Required | Description                                                                                       | Default Value |
 | -------- | ------ | -------- | ------------------------------------------------------------------------------------------------- | ------------- |
 | limit    | number | ✅       | Required if options is defined. A Numeric value that sets the limit of results by the search term | 1             |
-| language | string | 🔴       | a language code based on [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)             | "en"          |
-| country  | string | 🔴       | a country code based on [ISO_3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)              | "US"          |
+| language | string | 🔴       | a language code based on [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)       | "en"          |
+| country  | string | 🔴       | a country code based on [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)              | "US"          |
 
 ## Example of use:
 

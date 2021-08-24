@@ -1,0 +1,38 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 95966,
+      "collectionId": 267976201,
+      "trackId": 267976275,
+      "artistName": "Genesis",
+      "collectionName": "Genesis (Remastered)",
+      "trackName": "Home By the Sea",
+      "collectionCensoredName": "Genesis (Remastered)",
+      "trackCensoredName": "Home By the Sea",
+      "artistViewUrl": "https://music.apple.com/us/artist/genesis/95966?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/home-by-the-sea/267976201?i=267976275&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/home-by-the-sea/267976201?i=267976275&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/78/5f/3b/785f3bf0-7367-f888-2ac7-0f097589befb/mzaf_217039195074930802.plus.aac.p.m4a",
+      "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/51/38/8d/51388d80-3e64-494e-5c4e-9346a1104076/source/30x30bb.jpg",
+      "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/51/38/8d/51388d80-3e64-494e-5c4e-9346a1104076/source/60x60bb.jpg",
+      "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/51/38/8d/51388d80-3e64-494e-5c4e-9346a1104076/source/100x100bb.jpg",
+      "collectionPrice": 9.99,
+      "trackPrice": 1.29,
+      "releaseDate": "1983-10-03T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 9,
+      "trackNumber": 3,
+      "trackTimeMillis": 307800,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Rock",
+      "isStreamable": true
+    }
+  ]
+}

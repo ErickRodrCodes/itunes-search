@@ -12,11 +12,14 @@
     ".npmignore",
     ".nvmrc",
     ".prettierrc",
+    ".travis.yml",
+    "dependabot.yml",
     "jest.config.js",
     "tsconfig.eslint.json",
     "tsconfig.json",
     "webpack.config.js",
-    "src"
+    "src",
+    "tests"
   ],
   "fields": [
     "scripts",

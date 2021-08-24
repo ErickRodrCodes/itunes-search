@@ -2,6 +2,7 @@
   "files": [
     ".husky",
     "examples",
+    "coverage",
     ".clean-publish",
     ".czrc",
     ".editorconfig",

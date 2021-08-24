@@ -9,6 +9,7 @@
     ".eslintignore",
     ".eslintrc.js",
     ".gitignore",
+    ".github",
     ".lintstagedrc",
     ".npmignore",
     ".nvmrc",

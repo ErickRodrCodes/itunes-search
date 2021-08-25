@@ -32,7 +32,7 @@ describe('Search App', () => {
     expect(result.results).toHaveLength(0);
   });
 
-  describe("It validates if you're passing valid optional parameters", () => {
+  describe("it validates if you're passing valid optional parameters", () => {
     it("should throw exception when term is not a string, or empty string", async () => {
       const exceptionMessage = 'A "term" is a string required on any search. "term" cannot have empty spaces as well.';
       await expect(searchApp('', { limit: 3 }))

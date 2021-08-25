@@ -49,7 +49,7 @@ describe('Search All', () => {
     expect(result.resultCount).toBe(0);
     expect(result.results).toHaveLength(0);
   });
-  describe("It validates if you're passing valid optional parameters", () => {
+  describe("it validates if you're passing valid optional parameters", () => {
     it("should throw exception when term is not a string, or empty string", async () => {
       const exceptionMessage = 'A "term" is a string required on any search. "term" cannot have empty spaces as well.';
       await expect(searchAll('', {limit:1, attribute:"allArtistTerm", entity:"allArtist"}))

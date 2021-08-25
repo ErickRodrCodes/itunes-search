@@ -84,7 +84,7 @@ search();
 }
 ```
 
-[Return back to main document](/itunes-search/)
+[Return back to main document](https://tbogard.github.io/itunes-search/)
 
 API
 

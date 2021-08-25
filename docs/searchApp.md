@@ -523,7 +523,7 @@ iPad 5th generation or later; iPad mini 2 or later; iPad Air or later\n*Please n
 }
 ```
 
-[Return back to main document](/itunes-search/)
+[Return back to main document](https://tbogard.github.io/itunes-search/)
 
 API
 

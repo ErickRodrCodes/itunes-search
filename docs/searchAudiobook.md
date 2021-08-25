@@ -80,7 +80,7 @@ as well. Node.js, Meteor, Wakanda, CouchDB, and MongoDB are just a few examples 
 }
 ```
 
-[Return back to main document](/itunes-search/)
+[Return back to main document](https://tbogard.github.io/itunes-search/)
 
 API
 

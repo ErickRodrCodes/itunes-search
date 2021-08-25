@@ -5,7 +5,7 @@ import { searchSong } from '../../src/index';
 import mockData from  '../mock-answers/searchSong.json';
 const scope = nock('https://itunes.apple.com');
 
-describe('search Song', () => {
+describe('Search Song', () => {
   beforeAll(() => {
     nock.disableNetConnect();
   });
@@ -34,7 +34,22 @@ describe('search Song', () => {
   });
 
   describe("it validates if you're passing valid optional parameters", () => {
-
+    it("should throw exception when term is not a string, or empty string", async () => {
+      const exceptionMessage = 'A "term" is a string required on any search. "term" cannot have empty spaces as well.';
+      await expect(searchSong('', { limit: 3 }))
+        .rejects
+        .toHaveProperty(
+          'message', exceptionMessage
+        );
+    });
+    it('should throw exception when limit is not a number', async () => {
+      const exceptionMessage = 'Optional argument "limit" must be a number. Passed string(test)';
+      await expect(searchSong('Home by the sea', { limit: "test" }))
+        .rejects
+        .toHaveProperty(
+          'message', exceptionMessage
+        );
+    });
     it('should throw exception when language code is invalid', async () => {
       const exceptionMessage = 'Optional argument "language" must be a string and should be a valid ISO 639-1 language code '
         + '(https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). Passed string( "INVALID" )';

@@ -4,7 +4,7 @@ const { searchMusicVideo } = require('../../dist/index');
 const scope = nock('https://itunes.apple.com');
 const mockData = require( '../mock-answers/searchMusicVideo.json');
 
-describe('search Music Video', () => {
+describe('Search Music Video', () => {
   beforeAll(() => {
     nock.disableNetConnect();
   });

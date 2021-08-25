@@ -156,23 +156,23 @@ Here a quick view of the files you would see on this distribution:
 
 ## Explore additional methods to use this api
 
-- [searchAlbum](./docs/searchAlbum.md)
-- [searchAll](./docs/searchAll.md)
-- [searchApp](./docs/searchApp.md)
-- [searchArtist](./docs/searchArtist.md)
-- [searchAudiobook](./docs/searchAudiobook.md)
-- [searchBook](./docs/searchBook.md)
-- [searchMovie](./docs/searchMovie.md)
-- [searchMusicVideo](./docs/searchMusicVideo.md)
-- [searchPodcast](./docs/searchPodcast.md)
-- [searchSong](./docs/searchSong.md)
+- [searchAlbum](./searchAlbum.md)
+- [searchAll](./searchAll.md)
+- [searchApp](./searchApp.md)
+- [searchArtist](./searchArtist.md)
+- [searchAudiobook](./searchAudiobook.md)
+- [searchBook](./searchBook.md)
+- [searchMovie](./searchMovie.md)
+- [searchMusicVideo](./searchMusicVideo.md)
+- [searchPodcast](./searchPodcast.md)
+- [searchSong](./searchSong.md)
 
 ## Do you like this program?
 
 Donate any dogecoin to this wallet address:
 `DFKcaAVmda9jTL59CBamSHEcYytXhd8Q2G`
 
-![DFKcaAVmda9jTL59CBamSHEcYytXhd8Q2G](./docs/QRCode.png)
+![DFKcaAVmda9jTL59CBamSHEcYytXhd8Q2G](./QRCode.png)
 
 ## Contact
 

@@ -87,7 +87,7 @@ search();
 }
 ```
 
-[Return back to main document](./index.md)
+[Return back to main document](/itunes-search/)
 
 API
 

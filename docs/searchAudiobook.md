@@ -80,7 +80,7 @@ as well. Node.js, Meteor, Wakanda, CouchDB, and MongoDB are just a few examples 
 }
 ```
 
-[Return back to main document](../README.md)
+[Return back to main document](./index.md)
 
 API
 

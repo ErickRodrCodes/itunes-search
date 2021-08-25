@@ -5,6 +5,7 @@ build
 bundle
 output
 coverage
+coverage/**/*
 .vscode
 .husky
 .coveralls.yml

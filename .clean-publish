@@ -22,7 +22,8 @@
     "tsconfig.json",
     "webpack.config.js",
     "src",
-    "tests"
+    "tests",
+    "docs"
   ],
   "fields": [
     "scripts",

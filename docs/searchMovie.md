@@ -102,7 +102,7 @@ twists than Deadpool’s enemies’ intestines and more action than prom night. 
 }
 ```
 
-[Return back to main document](../README.md)
+[Return back to main document](./index.md)
 
 API
 

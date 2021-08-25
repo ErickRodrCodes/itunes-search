@@ -108,7 +108,7 @@ search();
 
 **Note**: Combinations of Entity/Attribute can make even more precise search results.
 
-[Return back to main document](../README.md)
+[Return back to main document](./index.md)
 
 API
 

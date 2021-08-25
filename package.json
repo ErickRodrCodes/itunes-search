@@ -82,7 +82,7 @@
   "bugs": {
     "url": "https://github.com/tbogard/itunes-search/issues"
   },
-  "homepage": "https://github.com/tbogard/itunes-search#readme",
+  "homepage": "https://tbogard.github.io/itunes-search/",
   "directories": {
     "doc": "docs",
     "example": "examples"

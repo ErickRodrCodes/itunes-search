@@ -133,7 +133,7 @@ search();
 }
 ```
 
-[Return back to main document](../README.md)
+[Return back to main document](./index.md)
 
 API
 

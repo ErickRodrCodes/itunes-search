@@ -7,4 +7,5 @@ output
 coverage
 .vscode
 .husky
+.coveralls.yml
 

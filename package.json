@@ -29,7 +29,8 @@
     "commit": "git add . && npm run cz",
     "lint-staged": "lint-staged",
     "test": "jest --detectOpenHandles --no-cache --coverage --verbose",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "coverage" : "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "author": "tbogard",
   "license": "MIT",
@@ -48,6 +49,7 @@
     "@typescript-eslint/parser": "^4.29.3",
     "clean-publish": "^2.2.0",
     "commitizen": "^4.2.4",
+    "coveralls": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",

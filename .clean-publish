@@ -15,13 +15,15 @@
     ".nvmrc",
     ".prettierrc",
     ".travis.yml",
+    ".coveralls.yml",
     "dependabot.yml",
     "jest.config.js",
     "tsconfig.eslint.json",
     "tsconfig.json",
     "webpack.config.js",
     "src",
-    "tests"
+    "tests",
+
   ],
   "fields": [
     "scripts",

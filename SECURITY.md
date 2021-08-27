@@ -7,6 +7,7 @@ The latest version of @tbogard/itunes-search should be up to date, and free as p
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.1.x   | :white_check_mark: |
+| 1.2.x   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 

@@ -1,12 +1,24 @@
+#### 1.2.3 (2021-08-27)
+
+##### Build System / Dependencies
+
+*  removed test for dist since the same test is applied for source ([#21](https://github.com/tbogard/itunes-search/pull/21)) ([b027ba9d](https://github.com/tbogard/itunes-search/commit/b027ba9d212af1e2c176990bd0e86e2df5f62e83))
+
+#### 1.2.2 (2021-08-27)
+
+##### Refactors
+
+refactor: added simplified validation to option object ([1136b203](https://github.com/tbogard/itunes-search/commit/1136b20379da54d160592d08f784bb3cf7957426))
+
 #### 1.2.1 (2021-08-27)
 
 ##### Build System / Dependencies
 
-*  removed uglifyjs ([58733a60](https://github.com/tbogard/itunes-search/commit/58733a609cddc4c2979964e4952f90fa1af0b442))
+- removed uglifyjs ([58733a60](https://github.com/tbogard/itunes-search/commit/58733a609cddc4c2979964e4952f90fa1af0b442))
 
 ##### Documentation Changes
 
-*  adding pull request template ([#12](https://github.com/tbogard/itunes-search/pull/12)) ([c112e6df](https://github.com/tbogard/itunes-search/commit/c112e6df61880cbbc9da6a2bea11ef3243ddac58))
+- adding pull request template ([#12](https://github.com/tbogard/itunes-search/pull/12)) ([c112e6df](https://github.com/tbogard/itunes-search/commit/c112e6df61880cbbc9da6a2bea11ef3243ddac58))
 
 #### 1.2.0 (2021-08-27)
 

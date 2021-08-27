@@ -1,6 +1,6 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 const { mainModule } = require('process');
 
 module.exports = {
@@ -20,7 +20,7 @@ module.exports = {
     __dirname: false
   },
   optimization: {
-    minimizer: [new UglifyJsPlugin()], // enabling this reduces file size and readability
+    minimizer: [new TerserPlugin()], // enabling this reduces file size and readability
   },
   module: {
     rules: [

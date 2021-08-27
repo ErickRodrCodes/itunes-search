@@ -12,6 +12,10 @@ An iTunes Search library that uses Apple Web Search API.
 
 It performes blazing fast searches on iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!
 
+## Why you should use this package
+
+Most of the itunes search packages similar to this one are outdated by years (https://www.npmjs.com/search?q=itunes-search). I am commited to keep this package updated as soon there is outdated dependencies or new improvements on the code that can make the package efficient and performant as possible.
+
 ## Requirements
 
 - Node 12 or above (LTS recommended)

@@ -31,9 +31,7 @@ class iTunesSearch {
         this.searchAll = async (term, options) => await this.performSearch(term, { ...options }, "searchAll");
         this.performSearch = async (term, options, validate) => {
             try {
-                this.validate(term, options, validate);
-                const mergedOptions = { ...this.defaultOptions, ...options };
-                const searchObject = Object.fromEntries(Object.entries(mergedOptions).filter(([_, value]) => value !== null));
+                const searchObject = this.validate(term, options, validate);
                 const querystring = new URLSearchParams(searchObject);
                 const searchQueryStr = `/search?term=${encodeURI(term)}&${querystring.toString()}`;
                 const { data } = await this.iTunesFetch.get(searchQueryStr);
@@ -125,7 +123,7 @@ class iTunesSearch {
             throw new TypeError(`Optional argument "language" must be a string and should be a valid ISO 639-1`
                 + ` language code (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). `
                 + `Passed ${typeof newOptions.language}( ${JSON.stringify(newOptions.language)} )`);
-        return;
+        return newOptions;
     }
 }
 exports.iTunesSearch = iTunesSearch;

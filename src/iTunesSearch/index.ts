@@ -54,10 +54,7 @@ export class iTunesSearch implements IiTunesSearch {
   private performSearch = async (term: string, options: ISearchAllOptions, validate:string): Promise<ReturnType> => {
     // eslint-disable-next-line no-useless-catch
     try {
-      this.validate(term, options, validate);
-      const mergedOptions = { ...this.defaultOptions, ...options };
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const searchObject: any = Object.fromEntries(Object.entries(mergedOptions).filter(([ _, value ]) => value !== null));
+      const searchObject: any = this.validate(term, options, validate);
       const querystring = new URLSearchParams(searchObject);
       const searchQueryStr = `/search?term=${encodeURI(term)}&${querystring.toString()}`;
       const { data } = await this.iTunesFetch.get(searchQueryStr);
@@ -67,10 +64,10 @@ export class iTunesSearch implements IiTunesSearch {
     }
   }
 
-  private validate(term:string, options:ISearchAllOptions, validate:string): void {
+  private validate(term:string, options:ISearchAllOptions, validate:string): ReturnType {
 
     //cleaning up nulls
-    const newOptions:ISearchAllOptions = Object.fromEntries(
+    const newOptions:any = Object.fromEntries(
       Object.entries({ ...this.defaultOptions, ...options })
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         .filter(([ _, value ]) => value !== null)
@@ -171,6 +168,6 @@ export class iTunesSearch implements IiTunesSearch {
         +`Passed ${ typeof newOptions.language }( ${ JSON.stringify(newOptions.language) } )`
       );
 
-    return;
+    return newOptions;
   }
 }

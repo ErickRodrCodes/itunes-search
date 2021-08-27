@@ -1,9 +1,9 @@
 import { AttributeType, EntityType, ReturnType } from "../typings/types";
 export interface ISearchAllOptions {
     [key: string]: any;
-    limit?: number | undefined;
-    entity?: EntityType | null | undefined;
-    attribute?: AttributeType | null | undefined;
+    limit?: number | string | undefined;
+    entity?: EntityType | string | null | undefined;
+    attribute?: AttributeType | string | null | undefined;
     language?: string | null | undefined;
     country?: string | null | undefined;
 }

@@ -1,10 +1,10 @@
 const path = require('path');
-const nodeExternals = require('webpack-node-externals');
 const TerserPlugin = require('terser-webpack-plugin');
 const { mainModule } = require('process');
 
 module.exports = {
   mode: "production",
+  target:"web",
   node: {
     __dirname:false
   },

@@ -4,7 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square)](http://makeapullrequest.com)
 [![node](https://img.shields.io/badge/node-%3E=_12.0-green.svg?style=flat-square)](https://nodejs.org)
 [![Build Status](https://app.travis-ci.com/tbogard/itunes-search.svg?branch=main)](https://app.travis-ci.com/tbogard/itunes-search)
-[![Coverage Status](https://coveralls.io/repos/github/tbogard/itunes-search/badge.svg?branch=main)](https://coveralls.io/github/tbogard/itunes-search?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/tbogard/itunes-search/badge.svg)](https://coveralls.io/github/tbogard/itunes-search?branch=main)
 
 [![npm package](https://nodei.co/npm/@tbogard/itunes-search.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@tbogard/itunes-search)
 

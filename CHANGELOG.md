@@ -1,3 +1,14 @@
+#### 1.2.5 (2021-09-06)
+
+##### Build System / Dependencies
+
+* **deps-dev:**
+  *  bump webpack from 5.50.0 to 5.51.1 ([dd549fbf](https://github.com/tbogard/itunes-search/commit/dd549fbfc44b6cacb64f4ebb70f7021783f58ebd))
+  *  bump eslint-plugin-import from 2.24.1 to 2.24.2 ([4b06da2a](https://github.com/tbogard/itunes-search/commit/4b06da2a462acc0a031c27eaf7ed1f8b0516a2e5))
+  *  bump husky from 7.0.1 to 7.0.2 ([83612ca5](https://github.com/tbogard/itunes-search/commit/83612ca5bbfb50a91934049ff628bbfda13bb85b))
+  *  bump typescript from 4.3.5 to 4.4.2 ([bd399c5d](https://github.com/tbogard/itunes-search/commit/bd399c5dc7f46566861ed472ca024e90735231a0))
+  *  bump @typescript-eslint/parser from 4.29.3 to 4.30.0 ([955fe763](https://github.com/tbogard/itunes-search/commit/955fe76311e7cca3dd987f501060ca25f5dd31ff))
+
 #### 1.2.4 (2021-08-28)
 
 #### 1.2.3 (2021-08-27)

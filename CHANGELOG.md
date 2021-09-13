@@ -1,3 +1,9 @@
+#### 1.2.6 (2021-09-13)
+
+##### Build System / Dependencies
+
+* **deps:**  bump axios from 0.21.1 to 0.21.2 ([5c5f87c3](https://github.com/tbogard/itunes-search/commit/5c5f87c391f16b31480711d3c4d3a159c695cefd))
+
 #### 1.2.5 (2021-09-06)
 
 ##### Build System / Dependencies

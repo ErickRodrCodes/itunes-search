@@ -43,7 +43,7 @@
     "url": "git+https://github.com/tbogard/itunes-search.git"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",

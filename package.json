@@ -70,7 +70,7 @@
     "lint-staged": "^11.1.2",
     "nock": "^13.1.2",
     "node-loader": "^2.0.0",
-    "nodemon": "^2.0.12",
+    "nodemon": "^2.0.13",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
     "terser-webpack-plugin": "^4.2.3",

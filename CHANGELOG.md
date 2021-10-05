@@ -1,3 +1,15 @@
+#### 1.2.7 (2021-10-05)
+
+##### Build System / Dependencies
+
+* **deps-dev:**
+  *  bump eslint-import-resolver-typescript ([12a93192](https://github.com/tbogard/itunes-search/commit/12a9319241075c43b94e204773453d23188190b3))
+  *  bump typescript from 4.4.2 to 4.4.3 ([74610189](https://github.com/tbogard/itunes-search/commit/74610189970e6824597da1c75162fc2f8ed5556d))
+  *  bump webpack-cli from 4.7.2 to 4.8.0 ([689d2499](https://github.com/tbogard/itunes-search/commit/689d2499ad48170d5771decce4e55763daf3a548))
+  *  bump eslint-plugin-prettier from 3.4.1 to 4.0.0 ([0da39c1a](https://github.com/tbogard/itunes-search/commit/0da39c1a0b19473f539868a74472e39b048ab48b))
+  *  bump nodemon from 2.0.12 to 2.0.13 ([92745332](https://github.com/tbogard/itunes-search/commit/9274533252dd19e48d1461c4c43db0281ecefe50))
+* **deps:**  bump tmpl from 1.0.4 to 1.0.5 ([7cc7575f](https://github.com/tbogard/itunes-search/commit/7cc7575fcf73dc50a9a3ddc3fbe618a580df5a32))
+
 #### 1.2.6 (2021-09-13)
 
 ##### Build System / Dependencies

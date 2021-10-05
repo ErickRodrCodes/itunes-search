@@ -56,7 +56,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-import-helpers": "^1.1.0",
     "eslint-plugin-jest": "^24.4.0",
@@ -78,7 +78,7 @@
     "ts-node": "^10.2.1",
     "ts-node-dev": "^1.1.8",
     "tsc-watch": "^4.5.0",
-    "typescript": "^4.4.2",
+    "typescript": "^4.4.3",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.7.2",
     "webpack-node-externals": "^3.0.0"

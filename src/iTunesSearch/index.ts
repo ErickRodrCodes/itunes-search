@@ -10,16 +10,12 @@ export class iTunesSearch implements IiTunesSearch {
   options = {} as ISearchAllOptions;
   defaultOptions = {
     limit: 1,
-    country: "US",
-    language: "en",
+    country: null,
+    language: null,
     attribute: null,
-    entity: null
-  } as ISearchAllOptions;
-
-  private iTunesFetch = axios.create({
-    baseURL: 'https://itunes.apple.com',
+    entity: null,
     timeout: 2000
-  })
+  } as ISearchAllOptions;
 
   searchAlbum = async (term: string, options?: ISearchAllOptions): Promise<ReturnType> =>
     await this.performSearch(term, { ...options, ...{ entity: "album" } }, "searchAlbum")
@@ -52,12 +48,17 @@ export class iTunesSearch implements IiTunesSearch {
     await this.performSearch(term, { ...options }, "searchAll")
 
   private performSearch = async (term: string, options: ISearchAllOptions, validate:string): Promise<ReturnType> => {
+    const searchObject: any = this.validate(term, options, validate);
     // eslint-disable-next-line no-useless-catch
     try {
-      const searchObject: any = this.validate(term, options, validate);
+      const iTunesFetch = axios.create({
+        baseURL: 'https://itunes.apple.com',
+        timeout: options?.timeout || 2000
+      });
+      if (options.timeout) delete options.timeout;
       const querystring = new URLSearchParams(searchObject);
       const searchQueryStr = `/search?term=${encodeURI(term)}&${querystring.toString()}`;
-      const { data } = await this.iTunesFetch.get(searchQueryStr);
+      const { data } = await iTunesFetch.get(searchQueryStr);
       return data;
     } catch (e) {
       throw e;

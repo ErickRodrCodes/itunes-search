@@ -1,6 +1,6 @@
 {
   "name": "@tbogard/itunes-search",
-  "version": "1.2.7",
+  "version": "1.2.9",
   "description": "An iTunes Search library that uses Apple Web Search API. It performes blazing fast searches on iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!",
   "main": "dist/index.js",
   "keywords": [
@@ -46,7 +46,7 @@
     "axios": "^0.24.0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.24",
+    "@types/jest": "^27.0.3",
     "@types/nock": "^11.1.0",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.33.0",
@@ -67,18 +67,18 @@
     "generate-changelog": "^1.8.0",
     "husky": "^7.0.2",
     "jest": "^27.3.1",
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^12.1.2",
     "nock": "^13.1.2",
     "node-loader": "^2.0.0",
-    "nodemon": "^2.0.13",
+    "nodemon": "^2.0.15",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
     "terser-webpack-plugin": "^4.2.3",
-    "ts-jest": "^27.0.5",
+    "ts-jest": "^27.1.1",
     "ts-node": "^10.4.0",
     "ts-node-dev": "^1.1.8",
     "tsc-watch": "^4.5.0",
-    "typescript": "^4.4.3",
+    "typescript": "^4.5.2",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
     "webpack-node-externals": "^3.0.0"

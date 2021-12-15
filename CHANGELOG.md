@@ -1,3 +1,37 @@
+#### 1.2.8 (2021-12-15)
+
+##### Build System / Dependencies
+
+* **deps-dev:**
+  *  bump ts-jest from 27.0.7 to 27.1.1 ([86a62cd0](https://github.com/tbogard/itunes-search/commit/86a62cd0bcaadf4fbd2144888d8249cb97f69576))
+  *  bump @types/jest from 26.0.24 to 27.0.3 ([e6725599](https://github.com/tbogard/itunes-search/commit/e6725599aea37c3181c3139aa58dd1e07727e8b2))
+  *  bump nodemon from 2.0.13 to 2.0.15 ([dfc66828](https://github.com/tbogard/itunes-search/commit/dfc668282628f33419abae4cd313886c54b37f0e))
+  *  bump ts-jest from 27.0.5 to 27.0.7 ([3b72f792](https://github.com/tbogard/itunes-search/commit/3b72f7927c6e382c93f834860f4da08dbdd045bf))
+  *  bump lint-staged from 11.1.2 to 12.1.2 ([1cfde0ab](https://github.com/tbogard/itunes-search/commit/1cfde0ab31223821953c7a0a29c96d8975cce19e))
+  *  bump typescript from 4.4.3 to 4.5.2 ([76357553](https://github.com/tbogard/itunes-search/commit/76357553ae91016f49db1ea4fadc9969fbab4318))
+  *  bump jest from 27.0.6 to 27.3.1 ([fe8ebe07](https://github.com/tbogard/itunes-search/commit/fe8ebe0734dd8354bfa48acffdc853327f992500))
+  *  bump @typescript-eslint/parser from 4.30.0 to 4.33.0 ([d951914c](https://github.com/tbogard/itunes-search/commit/d951914c5d6c9688285d50a5f3cb606485368793))
+  *  bump eslint-plugin-promise from 5.1.0 to 5.1.1 ([351ad257](https://github.com/tbogard/itunes-search/commit/351ad25784c4c4d29b1276e95fd31afeabc5ae98))
+  *  bump ts-node from 10.2.1 to 10.4.0 ([4b94a624](https://github.com/tbogard/itunes-search/commit/4b94a62441ef82170e2c58a1069915e56fdb5bcd))
+* **deps:**  bump axios from 0.21.2 to 0.24.0 ([40642286](https://github.com/tbogard/itunes-search/commit/40642286f9cdb2580dcb13eef7513116b119d186))
+
+#### 1.2.8 (2021-12-15)
+
+##### Build System / Dependencies
+
+* **deps-dev:**
+  *  bump ts-jest from 27.0.7 to 27.1.1 ([86a62cd0](https://github.com/tbogard/itunes-search/commit/86a62cd0bcaadf4fbd2144888d8249cb97f69576))
+  *  bump @types/jest from 26.0.24 to 27.0.3 ([e6725599](https://github.com/tbogard/itunes-search/commit/e6725599aea37c3181c3139aa58dd1e07727e8b2))
+  *  bump nodemon from 2.0.13 to 2.0.15 ([dfc66828](https://github.com/tbogard/itunes-search/commit/dfc668282628f33419abae4cd313886c54b37f0e))
+  *  bump ts-jest from 27.0.5 to 27.0.7 ([3b72f792](https://github.com/tbogard/itunes-search/commit/3b72f7927c6e382c93f834860f4da08dbdd045bf))
+  *  bump lint-staged from 11.1.2 to 12.1.2 ([1cfde0ab](https://github.com/tbogard/itunes-search/commit/1cfde0ab31223821953c7a0a29c96d8975cce19e))
+  *  bump typescript from 4.4.3 to 4.5.2 ([76357553](https://github.com/tbogard/itunes-search/commit/76357553ae91016f49db1ea4fadc9969fbab4318))
+  *  bump jest from 27.0.6 to 27.3.1 ([fe8ebe07](https://github.com/tbogard/itunes-search/commit/fe8ebe0734dd8354bfa48acffdc853327f992500))
+  *  bump @typescript-eslint/parser from 4.30.0 to 4.33.0 ([d951914c](https://github.com/tbogard/itunes-search/commit/d951914c5d6c9688285d50a5f3cb606485368793))
+  *  bump eslint-plugin-promise from 5.1.0 to 5.1.1 ([351ad257](https://github.com/tbogard/itunes-search/commit/351ad25784c4c4d29b1276e95fd31afeabc5ae98))
+  *  bump ts-node from 10.2.1 to 10.4.0 ([4b94a624](https://github.com/tbogard/itunes-search/commit/4b94a62441ef82170e2c58a1069915e56fdb5bcd))
+* **deps:**  bump axios from 0.21.2 to 0.24.0 ([40642286](https://github.com/tbogard/itunes-search/commit/40642286f9cdb2580dcb13eef7513116b119d186))
+
 #### 1.2.7 (2021-10-05)
 
 ##### Build System / Dependencies

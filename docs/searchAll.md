@@ -21,6 +21,7 @@ Please Check [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For La
 | attribute | string | 🟡 if you need more precision | The attribute you want to search for in the stores, relative to the specified media type. For example, if you want to search for an artist by name specify `entity=allArtist&attribute=allArtistTerm.` Check the list of Attributes. |               |
 | language  | string | 🔴                            | a language code based on [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)                                                                                                                                          | "en"          |
 | country   | string | 🔴                            | a country code based on [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)                                                                                                                                                 | "US"          |
+| timeout   | number | 🔴                            | The amout of milliseconds that will be allowed the search to take before timeout.                                                                                                                                                    | 2000          |
 
 ##### Entities for each media type
 

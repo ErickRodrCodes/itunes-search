@@ -10,8 +10,8 @@ export class iTunesSearch implements IiTunesSearch {
   options = {} as ISearchAllOptions;
   defaultOptions = {
     limit: 1,
-    country: null,
-    language: null,
+    country: 'US',
+    language: 'en',
     attribute: null,
     entity: null,
     timeout: 2000
@@ -53,9 +53,10 @@ export class iTunesSearch implements IiTunesSearch {
     try {
       const iTunesFetch = axios.create({
         baseURL: 'https://itunes.apple.com',
-        timeout: options?.timeout || 2000
+        timeout: searchObject?.timeout || 2000
       });
-      if (options.timeout) delete options.timeout;
+      if (searchObject.timeout) delete searchObject.timeout;
+
       const querystring = new URLSearchParams(searchObject);
       const searchQueryStr = `/search?term=${encodeURI(term)}&${querystring.toString()}`;
       const { data } = await iTunesFetch.get(searchQueryStr);

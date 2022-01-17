@@ -1,3 +1,23 @@
+### 1.3.0 (2022-01-17)
+
+##### Build System / Dependencies
+
+* **deps-dev:**
+  *  bump eslint-plugin-import-helpers from 1.1.0 to 1.2.0 ([#51](https://github.com/tbogard/itunes-search/pull/51)) ([c189e86e](https://github.com/tbogard/itunes-search/commit/c189e86ee17237237a3fc4e7d566ad25735c8b61))
+  *  bump ts-jest from 27.1.1 to 27.1.2 ([#52](https://github.com/tbogard/itunes-search/pull/52)) ([f11ef260](https://github.com/tbogard/itunes-search/commit/f11ef260d8f3b5f9ae94241bc58d2ce32393fb0d))
+  *  bump terser-webpack-plugin from 4.2.3 to 5.3.0 ([#53](https://github.com/tbogard/itunes-search/pull/53)) ([7528f60b](https://github.com/tbogard/itunes-search/commit/7528f60bf458e472dd5aed86b0897405770e0874))
+  *  bump webpack from 5.51.1 to 5.65.0 ([#54](https://github.com/tbogard/itunes-search/pull/54)) ([de485376](https://github.com/tbogard/itunes-search/commit/de485376cefbe586fe79e4ec0819c96611973eb4))
+  *  bump jest from 27.3.1 to 27.4.5 ([#55](https://github.com/tbogard/itunes-search/pull/55)) ([2fc0442c](https://github.com/tbogard/itunes-search/commit/2fc0442ceffe73e9c7e32abc2176083331dd5a3d))
+* **deps:**  bump follow-redirects from 1.14.5 to 1.14.7 ([#56](https://github.com/tbogard/itunes-search/pull/56)) ([8d3dad08](https://github.com/tbogard/itunes-search/commit/8d3dad084e37251a7aa420cc8cf499c4a44d6404))
+
+##### Chores
+
+* **dependencies:**  updated dependencies to safe new versions ([e5d75049](https://github.com/tbogard/itunes-search/commit/e5d750496f084dd1858a3969cf8de8ec6977704b))
+
+##### Other Changes
+
+* tbogard/itunes-search ([82fb8677](https://github.com/tbogard/itunes-search/commit/82fb86779127f32eaa33bfc3f10902382bec2524))
+
 #### 1.2.9 (2021-12-15)
 
 #### 1.2.9 (2021-12-15)

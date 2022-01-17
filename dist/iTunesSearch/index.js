@@ -10,15 +10,12 @@ class iTunesSearch {
         this.options = {};
         this.defaultOptions = {
             limit: 1,
-            country: "US",
-            language: "en",
+            country: null,
+            language: null,
             attribute: null,
-            entity: null
-        };
-        this.iTunesFetch = axios_1.default.create({
-            baseURL: 'https://itunes.apple.com',
+            entity: null,
             timeout: 2000
-        });
+        };
         this.searchAlbum = async (term, options) => await this.performSearch(term, { ...options, ...{ entity: "album" } }, "searchAlbum");
         this.searchSong = async (term, options) => await this.performSearch(term, { ...options, ...{ media: "music" } }, "searchSong");
         this.searchArtist = async (term, options) => await this.performSearch(term, { ...options, ...{ entity: "allArtist", attribute: "allArtistTerm" } }, "searchArtist");
@@ -30,11 +27,17 @@ class iTunesSearch {
         this.searchPodcast = async (term, options) => await this.performSearch(term, { ...options, ...{ entity: "podcast" } }, "searchPodcast");
         this.searchAll = async (term, options) => await this.performSearch(term, { ...options }, "searchAll");
         this.performSearch = async (term, options, validate) => {
+            const searchObject = this.validate(term, options, validate);
             try {
-                const searchObject = this.validate(term, options, validate);
+                const iTunesFetch = axios_1.default.create({
+                    baseURL: 'https://itunes.apple.com',
+                    timeout: options?.timeout || 2000
+                });
+                if (options.timeout)
+                    delete options.timeout;
                 const querystring = new URLSearchParams(searchObject);
                 const searchQueryStr = `/search?term=${encodeURI(term)}&${querystring.toString()}`;
-                const { data } = await this.iTunesFetch.get(searchQueryStr);
+                const { data } = await iTunesFetch.get(searchQueryStr);
                 return data;
             }
             catch (e) {

@@ -18,7 +18,10 @@ describe('Search Podcast', () => {
   it("should return results for a podcast with the keyword 'cbs news'", async () => {
     scope.get('/search?term=cbs%20news&limit=1&country=US&language=en&entity=podcast')
       .reply(200, mockData);
-    const result = await searchPodcast('cbs news');
+    const result = await searchPodcast('cbs news', {
+      limit: 1,
+      timeout: 2000,
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
   });

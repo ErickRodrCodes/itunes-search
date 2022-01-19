@@ -6,6 +6,7 @@ export interface ISearchAllOptions {
     attribute?: AttributeType | string | null | undefined;
     language?: string | null | undefined;
     country?: string | null | undefined;
+    timeout?: number | null | undefined;
 }
 export interface ISearchMandatoryAllOptions {
     limit?: number;
@@ -13,6 +14,7 @@ export interface ISearchMandatoryAllOptions {
     attribute: AttributeType;
     language?: string;
     country?: string;
+    timeout?: number;
 }
 export interface IiTunesSearch {
     defaultOptions: ISearchAllOptions;

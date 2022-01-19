@@ -3,7 +3,6 @@ import { IiTunesSearch, ISearchAllOptions } from "./interfaces";
 export declare class iTunesSearch implements IiTunesSearch {
     options: ISearchAllOptions;
     defaultOptions: ISearchAllOptions;
-    private iTunesFetch;
     searchAlbum: (term: string, options?: ISearchAllOptions | undefined) => Promise<ReturnType>;
     searchSong: (term: string, options?: ISearchAllOptions | undefined) => Promise<ReturnType>;
     searchArtist: (term: string, options?: ISearchAllOptions | undefined) => Promise<ReturnType>;

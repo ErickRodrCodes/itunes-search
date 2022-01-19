@@ -18,7 +18,10 @@ describe('Search Music Video', () => {
   it("should return results for a music video called 'u cant touch this'", async () => {
     scope.get('/search?term=u%20cant%20touch%20this&limit=1&country=US&language=en&media=musicVideo')
       .reply(200, mockData);
-    const result = await searchMusicVideo('u cant touch this');
+    const result = await searchMusicVideo('u cant touch this', {
+      limit: 1,
+      timeout: 2000,
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
   });

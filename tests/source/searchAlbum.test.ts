@@ -21,10 +21,13 @@ describe('Search Album', () => {
         limit: 3,
         country: 'US',
         language: 'en',
-        entity:'album',
+        entity: 'album'
       })
       .reply(200, mockData);
-    const result = await searchAlbum('Nemesis', {limit:3});
+    const result = await searchAlbum('Nemesis', {
+      limit: 3,
+      timeout: 2000
+    });
     expect(result.resultCount).toBe(3);
     expect(result.results).toHaveLength(3);
   });

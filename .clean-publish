@@ -21,6 +21,9 @@
     "tsconfig.eslint.json",
     "tsconfig.json",
     "webpack.config.js",
+    "yarn.lock",
+    ".yarnrc",
+    "coveralls.yml",
     "src",
     "tests",
     "docs"
@@ -30,5 +33,6 @@
     "directories",
     "devDependencies"
   ],
-  "access": "public"
+  "access": "public",
+  "packageManager": "yarn"
 }

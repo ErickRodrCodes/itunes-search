@@ -11,8 +11,7 @@ module.exports = {
     "modules-newline",
     "import",
     "jest",
-    "promise",
-    "standard",
+    "promise"
   ],
   extends: [
     "eslint:recommended", // this has to go first

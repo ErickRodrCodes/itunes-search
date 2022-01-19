@@ -18,7 +18,10 @@ describe('Search Movie', () => {
   it("should return results for an movie called 'Deadpool'", async () => {
     scope.get('/search?term=Deadpool&limit=1&country=US&language=en&entity=movie')
       .reply(200, mockData);
-    const result = await searchMovie('Deadpool');
+    const result = await searchMovie('Deadpool', {
+      limit: 1,
+      timeout: 2000,
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
   });
@@ -36,7 +39,10 @@ describe('Search Movie', () => {
   describe("it validates if you're passing valid optional parameters", () => {
     it("should throw exception when term is not a string, or empty string", async () => {
       const exceptionMessage = 'A "term" is a string required on any search. "term" cannot have empty spaces as well.';
-      await expect(searchMovie('', { limit: 3 }))
+      await expect(searchMovie('', {
+        limit: 3,
+        timeout: 2000,
+      }))
         .rejects
         .toHaveProperty(
           'message', exceptionMessage

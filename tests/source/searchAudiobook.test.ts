@@ -18,7 +18,10 @@ describe('Search Audiobook', () => {
   it("should return results for an Audiobook called 'moby dick'", async () => {
     scope.get('/search?term=moby%20dick&limit=1&country=US&language=en&entity=audiobook')
       .reply(200, mockData);
-    const result = await searchAudiobook('moby dick');
+    const result = await searchAudiobook('moby dick', {
+      limit: 1,
+      timeout: 2000
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
   });
@@ -36,7 +39,10 @@ describe('Search Audiobook', () => {
   describe("it validates if you're passing valid optional parameters", () => {
     it("should throw exception when term is not a string, or empty string", async () => {
       const exceptionMessage = 'A "term" is a string required on any search. "term" cannot have empty spaces as well.';
-      await expect(searchAudiobook('', { limit: 3 }))
+      await expect(searchAudiobook('', {
+        limit: 3,
+        timeout: 2000,
+      }))
         .rejects
         .toHaveProperty(
           'message', exceptionMessage

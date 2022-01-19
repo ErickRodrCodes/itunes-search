@@ -19,6 +19,7 @@ Please Check [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) For La
 | limit    | number | ✅       | Required if options is defined. A Numeric value that sets the limit of results by the search term | 1             |
 | language | string | 🔴       | a language code based on [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)       | "en"          |
 | country  | string | 🔴       | a country code based on [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)              | "US"          |
+| timeout  | number | 🔴       | The amout of milliseconds that will be allowed the search to take before timeout.                 | 2000          |
 
 ## Example of use:
 

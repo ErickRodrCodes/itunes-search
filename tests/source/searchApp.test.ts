@@ -18,7 +18,10 @@ describe('Search App', () => {
   it("should return results for an App called 'Captain Tsubasa Dream Team'", async () => {
     scope.get('/search?term=Captain%20Tsubasa%20Dream%20Team&limit=1&country=US&language=en&entity=software')
       .reply(200, mockData);
-    const result = await searchApp('Captain Tsubasa Dream Team', {limit:1});
+    const result = await searchApp('Captain Tsubasa Dream Team', {
+      limit: 1,
+      timeout: 2000,
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
   });

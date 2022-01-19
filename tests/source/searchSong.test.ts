@@ -18,7 +18,10 @@ describe('Search Song', () => {
   it("should return results for a song called 'Home by the sea'", async () => {
     scope.get('/search?term=Home%20by%20the%20sea&limit=1&country=US&language=en&media=music')
       .reply(200, mockData);
-    const result = await searchSong('Home by the sea');
+    const result = await searchSong('Home by the sea', {
+      limit: 1,
+      timeout: 2000
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
   });

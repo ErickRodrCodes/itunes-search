@@ -19,7 +19,10 @@ describe('Search Artist', () => {
   it("should return results for an artist called 'Hikaru Utada'", async () => {
     scope.get('/search?term=Hikaru%20Utada&limit=1&country=US&language=en&attribute=allArtistTerm&entity=allArtist')
       .reply(200, mockData);
-    const result = await searchArtist('Hikaru Utada');
+    const result = await searchArtist('Hikaru Utada', {
+      limit: 1,
+      timeout: 2000,
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
   });

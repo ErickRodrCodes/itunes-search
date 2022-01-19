@@ -30,5 +30,6 @@
     "directories",
     "devDependencies"
   ],
-  "access": "public"
+  "access": "public",
+  "packageManager": "yarn"
 }

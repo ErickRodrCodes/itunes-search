@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios  from 'axios';
 
 import { ReturnType } from "../typings/types";
 import {
@@ -47,25 +47,29 @@ export class iTunesSearch implements IiTunesSearch {
   searchAll = async (term: string, options?: ISearchAllOptions): Promise<ReturnType> =>
     await this.performSearch(term, { ...options }, "searchAll")
 
-  private performSearch = async (term: string, options: ISearchAllOptions, validate:string): Promise<ReturnType> => {
+  private performSearch = async (term: string, options: ISearchAllOptions, validate:string): Promise<ReturnType | any> => {
     const searchObject: any = this.validate(term, options, validate);
     // eslint-disable-next-line no-useless-catch
     try {
       const iTunesFetch = axios.create({
         baseURL: 'https://itunes.apple.com',
-        timeout: searchObject?.timeout || 2000
+        timeout: searchObject.timeout
       });
       if (searchObject.timeout) delete searchObject.timeout;
-
       const querystring = new URLSearchParams(searchObject);
       const searchQueryStr = `/search?term=${encodeURI(term)}&${querystring.toString()}`;
       const { data } = await iTunesFetch.get(searchQueryStr);
       return data;
-    } catch (e) {
-      throw e;
+    } catch (e: any) {
+      if (axios.isAxiosError(e)) {
+        if (e.code) {
+          throw new Error(`Error: ${e.code}. Reference: https://www.ibm.com/docs/en/zos/2.2.0?topic=codes-sockets-return-errnos`);
+        } else {
+          throw new Error('Network Disconnected');
+        }
+      }
     }
   }
-
   private validate(term:string, options:ISearchAllOptions, validate:string): ReturnType {
 
     //cleaning up nulls

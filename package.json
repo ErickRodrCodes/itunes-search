@@ -1,6 +1,6 @@
 {
   "name": "@tbogard/itunes-search",
-  "version": "1.3.1",
+  "version": "1.3.4",
   "description": "An iTunes Search library that uses Apple Web Search API. It performes blazing fast searches on iTunes Web API to fetch anything you want to search related to music tracks, music videos, artists, albums, movies, apps in the appStore, books, audiobooks and podcasts!",
   "main": "dist/index.js",
   "keywords": [
@@ -20,20 +20,20 @@
     "cz": "cz",
     "clean:dist": "rimraf ./dist",
     "clean:dist:map": "rimraf ./dist/**/*.map",
-    "build": "npm run clean:dist && npm run tsc -- --sourceMap false && webpack",
+    "build": "yarn clean:dist && yarn tsc -- --sourceMap false && webpack",
     "lint": "eslint ./src/**/*.ts --no-cache",
     "lint:fix": "eslint ./src/**/*.ts --fix",
     "eslint": "eslint",
-    "lint:watch": "nodemon --watch .eslintrc.js --exec \"npm run lint\"",
+    "lint:watch": "nodemon --watch .eslintrc.js --exec \"yarn lint\"",
     "prepare": "husky install",
-    "commit": "git add . && npm run cz",
+    "commit": "git add . && yarn cz",
     "lint-staged": "lint-staged",
     "test": "jest --detectOpenHandles --no-cache --coverage --verbose",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "release:major": "changelog -M && npm run commit && npm version major && git push origin && git push origin --tags && npm run publish",
-    "release:minor": "changelog -m && npm run commit && npm version minor && git push origin && git push origin --tags && npm run publish",
-    "release:patch": "changelog -p && npm run commit && npm version patch && git push origin && git push origin --tags && npm run publish"
+    "release:major": "changelog -M && yarn commit && npm version major && git push origin && git push origin --tags && yarn publish",
+    "release:minor": "changelog -m && yarn commit && npm version minor && git push origin && git push origin --tags && yarn publish",
+    "release:patch": "changelog -p && yarn commit && npm version patch && git push origin && git push origin --tags && yarn publish"
   },
   "author": "tbogard",
   "license": "MIT",
@@ -47,11 +47,11 @@
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
-    "@types/nock": "^11.1.0",
+    "@types/node": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.33.0",
     "axios-mock-adapter": "^1.20.0",
-    "clean-publish": "^2.2.0",
+    "clean-publish": "^3.4.5",
     "commitizen": "^4.2.4",
     "coveralls": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
@@ -64,7 +64,6 @@
     "eslint-plugin-modules-newline": "0.0.6",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-standard": "^5.0.0",
     "generate-changelog": "^1.8.0",
     "husky": "^7.0.2",
     "jest": "^27.4.5",
@@ -91,8 +90,5 @@
   "directories": {
     "doc": "docs",
     "example": "examples"
-  },
-  "engines": {
-    "node": "14.17.1"
   }
 }

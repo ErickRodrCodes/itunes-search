@@ -1,3 +1,13 @@
+#### 1.3.4 (2022-01-19)
+
+##### Continuous Integration
+
+*  change on script builds ([567528b4](https://github.com/tbogard/itunes-search/commit/567528b49b86aa1b006d297254fe1462d206884a))
+
+#### 1.3.3 (2022-01-19)
+
+#### 1.3.2 (2022-01-19)
+
 #### 1.3.1 (2022-01-19)
 
 ##### Tests

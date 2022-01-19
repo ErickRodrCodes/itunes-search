@@ -1,3 +1,13 @@
+#### 1.3.5 (2022-01-19)
+
+##### Build System / Dependencies
+
+* **deps:**  bump axios from 0.24.0 to 0.25.0 ([#62](https://github.com/tbogard/itunes-search/pull/62)) ([cb84626d](https://github.com/tbogard/itunes-search/commit/cb84626dfc0bd8408641bc3232c0c6f0aedccc3b))
+* **deps-dev:**
+  *  bump eslint-plugin-promise from 5.2.0 to 6.0.0 ([#63](https://github.com/tbogard/itunes-search/pull/63)) ([c9aa367a](https://github.com/tbogard/itunes-search/commit/c9aa367adbd913c11e0e3407b7cd4ecfe263dac5))
+  *  bump eslint-plugin-jest from 24.7.0 to 25.7.0 ([#64](https://github.com/tbogard/itunes-search/pull/64)) ([92709ae5](https://github.com/tbogard/itunes-search/commit/92709ae559ba2d83fc079ee763f52320ea98f8a6))
+  *  bump clean-publish from 2.2.0 to 3.4.5 ([#61](https://github.com/tbogard/itunes-search/pull/61)) ([aaf8fb28](https://github.com/tbogard/itunes-search/commit/aaf8fb28fe3299873b1ee4475e1f8ab02f000a6b))
+
 #### 1.3.4 (2022-01-19)
 
 ##### Continuous Integration

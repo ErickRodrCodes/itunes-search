@@ -31,9 +31,9 @@
     "test": "jest --detectOpenHandles --no-cache --coverage --verbose",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "release:major": "yarn run build && changelog -M && yarn commit && npm version major && git push origin && git push origin --tags && yarn publish",
-    "release:minor": "yarn run build && changelog -m && yarn commit && npm version minor && git push origin && git push origin --tags && yarn publish",
-    "release:patch": "yarn run build && changelog -p && yarn commit && npm version patch && git push origin && git push origin --tags && yarn publish"
+    "release:major": "yarn run build && changelog -M && yarn commit && npm version major && git push origin && git push origin --tags && yarn clean-publish",
+    "release:minor": "yarn run build && changelog -m && yarn commit && npm version minor && git push origin && git push origin --tags && yarn clean-publish",
+    "release:patch": "yarn run build && changelog -p && yarn commit && npm version patch && git push origin && git push origin --tags && yarn clean-publish"
   },
   "author": "tbogard",
   "license": "MIT",
@@ -90,5 +90,8 @@
   "directories": {
     "doc": "docs",
     "example": "examples"
+  },
+  "engines": {
+    "node": ">=16.13.2"
   }
 }

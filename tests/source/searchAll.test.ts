@@ -1,7 +1,7 @@
 import nock from 'nock';
 
 import { searchAll } from '../../src/index';
-import mockData from  '../mock-answers/searchAll.json';
+import mockData from '../mock-answers/searchAll.json';
 const scope = nock('https://itunes.apple.com');
 
 describe('Search All', () => {
@@ -17,7 +17,12 @@ describe('Search All', () => {
   it('should return results for an serch with a keyterm "Hikaru Utada", entity "allArtist" and attribute "allArtistTerm"', async () => {
     scope.get('/search?term=Hikaru%20Utada&limit=1&country=US&language=en&attribute=allArtistTerm&entity=allArtist')
       .reply(200, mockData);
-    const result = await searchAll('Hikaru Utada', {limit:1, attribute:"allArtistTerm", entity:"allArtist"});
+    const result = await searchAll('Hikaru Utada', {
+      limit: 1,
+      attribute: "allArtistTerm",
+      entity: "allArtist",
+      timeout: 2000,
+    });
     expect(result.resultCount).toBe(1);
     expect(result.results).toHaveLength(1);
     expect(result.results[0]).toEqual({
@@ -49,10 +54,13 @@ describe('Search All', () => {
     expect(result.resultCount).toBe(0);
     expect(result.results).toHaveLength(0);
   });
+
+
+
   describe("it validates if you're passing valid optional parameters", () => {
     it("should throw exception when term is not a string, or empty string", async () => {
       const exceptionMessage = 'A "term" is a string required on any search. "term" cannot have empty spaces as well.';
-      await expect(searchAll('', {limit:1, attribute:"allArtistTerm", entity:"allArtist"}))
+      await expect(searchAll('', { limit: 1, attribute: "allArtistTerm", entity: "allArtist" }))
         .rejects
         .toHaveProperty(
           'message', exceptionMessage

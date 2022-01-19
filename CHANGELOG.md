@@ -1,3 +1,9 @@
+#### 1.3.1 (2022-01-19)
+
+##### Tests
+
+* **network events:**  updated network tests ([c424dff2](https://github.com/tbogard/itunes-search/commit/c424dff2941e21062d120bb2a1125fb74c723827))
+
 ### 1.3.0 (2022-01-17)
 
 ##### Build System / Dependencies

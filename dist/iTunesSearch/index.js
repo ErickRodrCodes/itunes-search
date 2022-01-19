@@ -10,8 +10,8 @@ class iTunesSearch {
         this.options = {};
         this.defaultOptions = {
             limit: 1,
-            country: null,
-            language: null,
+            country: 'US',
+            language: 'en',
             attribute: null,
             entity: null,
             timeout: 2000
@@ -31,17 +31,24 @@ class iTunesSearch {
             try {
                 const iTunesFetch = axios_1.default.create({
                     baseURL: 'https://itunes.apple.com',
-                    timeout: options?.timeout || 2000
+                    timeout: searchObject.timeout
                 });
-                if (options.timeout)
-                    delete options.timeout;
+                if (searchObject.timeout)
+                    delete searchObject.timeout;
                 const querystring = new URLSearchParams(searchObject);
                 const searchQueryStr = `/search?term=${encodeURI(term)}&${querystring.toString()}`;
                 const { data } = await iTunesFetch.get(searchQueryStr);
                 return data;
             }
             catch (e) {
-                throw e;
+                if (axios_1.default.isAxiosError(e)) {
+                    if (e.code) {
+                        throw new Error(`Error: ${e.code}. Reference: https://www.ibm.com/docs/en/zos/2.2.0?topic=codes-sockets-return-errnos`);
+                    }
+                    else {
+                        throw new Error('Network Disconnected');
+                    }
+                }
             }
         };
     }

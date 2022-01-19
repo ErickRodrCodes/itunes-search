@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
-    "@types/nock": "^11.1.0",
+    "@types/node": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.33.0",
     "axios-mock-adapter": "^1.20.0",
@@ -64,7 +64,6 @@
     "eslint-plugin-modules-newline": "0.0.6",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-standard": "^5.0.0",
     "generate-changelog": "^1.8.0",
     "husky": "^7.0.2",
     "jest": "^27.4.5",
@@ -91,8 +90,5 @@
   "directories": {
     "doc": "docs",
     "example": "examples"
-  },
-  "engines": {
-    "node": "14.17.1"
   }
 }

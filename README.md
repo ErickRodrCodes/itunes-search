@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/tbogard/itunes-search/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square)](http://makeapullrequest.com)
-[![node](https://img.shields.io/badge/node-%3E=_12.0-green.svg?style=flat-square)](https://nodejs.org)
+[![node](https://img.shields.io/badge/node-%3E=_16.13.2-green.svg?style=flat-square)](https://nodejs.org)
 [![Build Status](https://app.travis-ci.com/tbogard/itunes-search.svg?branch=main)](https://app.travis-ci.com/tbogard/itunes-search)
 [![Coverage Status](https://coveralls.io/repos/github/tbogard/itunes-search/badge.svg)](https://coveralls.io/github/tbogard/itunes-search?branch=main)
 
@@ -18,7 +18,7 @@ Most of the itunes search packages similar to this one are outdated by years (ht
 
 ## Requirements
 
-- Node 12 or above (LTS recommended)
+- Node 16 or above (LTS recommended). It is advisable to use always LTS than your local installation. At the time of this new feature, we are using 16.13.2
 
 ## Installation
 

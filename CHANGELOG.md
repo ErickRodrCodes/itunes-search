@@ -1,3 +1,17 @@
+### 1.4.0 (2022-04-04)
+
+##### Build System / Dependencies
+
+* **deps-dev:**
+  *  bump webpack-cli from 4.9.1 to 4.9.2 ([#70](https://github.com/tbogard/itunes-search/pull/70)) ([6e2aa961](https://github.com/tbogard/itunes-search/commit/6e2aa9619a41c26fdebaf5ec4f2a4c27686b065e))
+  *  bump webpack from 5.66.0 to 5.71.0 ([#84](https://github.com/tbogard/itunes-search/pull/84)) ([0ccdbea2](https://github.com/tbogard/itunes-search/commit/0ccdbea2a4e11e58e4e52ad985d18c578f693b43))
+  *  bump eslint-plugin-jest from 25.7.0 to 26.1.3 ([#80](https://github.com/tbogard/itunes-search/pull/80)) ([63ecf6e1](https://github.com/tbogard/itunes-search/commit/63ecf6e18bda0dee89a8fbc4f53d27c42b33a614))
+  *  bump typescript from 4.5.4 to 4.6.3 ([#81](https://github.com/tbogard/itunes-search/pull/81)) ([ba089f8b](https://github.com/tbogard/itunes-search/commit/ba089f8b0b05e461c004c0ccf24c5b31d76f5b0c))
+  *  bump @types/node from 17.0.10 to 17.0.23 ([#82](https://github.com/tbogard/itunes-search/pull/82)) ([72de94a3](https://github.com/tbogard/itunes-search/commit/72de94a316533d645a9245671ca17efe25a4e190))
+* **deps:**
+  *  bump follow-redirects from 1.14.7 to 1.14.8 ([#74](https://github.com/tbogard/itunes-search/pull/74)) ([6816aa57](https://github.com/tbogard/itunes-search/commit/6816aa57943d7581e7679a7cb3ac043cb6d64d5b))
+  *  bump ansi-regex from 3.0.0 to 3.0.1 ([#83](https://github.com/tbogard/itunes-search/pull/83)) ([db03dc86](https://github.com/tbogard/itunes-search/commit/db03dc86e720c79ab410c91483faeecba362ba6b))
+
 #### 1.3.5 (2022-01-19)
 
 ##### Build System / Dependencies

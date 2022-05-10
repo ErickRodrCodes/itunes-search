@@ -58,7 +58,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-import-helpers": "^1.2.0",
     "eslint-plugin-jest": "^26.1.5",
     "eslint-plugin-modules-newline": "0.0.6",

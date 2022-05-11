@@ -1,3 +1,19 @@
+#### 1.4.1 (2022-05-11)
+
+##### Build System / Dependencies
+
+* **deps-dev:**
+  *  bump prettier from 2.5.1 to 2.6.2 ([#90](https://github.com/tbogard/itunes-search/pull/90)) ([0ce90026](https://github.com/tbogard/itunes-search/commit/0ce90026ada29e702896e965450415968a2e8b22))
+  *  bump @types/node from 17.0.23 to 17.0.32 ([#91](https://github.com/tbogard/itunes-search/pull/91)) ([4d76993a](https://github.com/tbogard/itunes-search/commit/4d76993a24418fcb65041ac47c9b1282212eb922))
+  *  bump eslint-plugin-import from 2.25.4 to 2.26.0 ([#92](https://github.com/tbogard/itunes-search/pull/92)) ([fd7b2762](https://github.com/tbogard/itunes-search/commit/fd7b27628ed2aa5473b161e5debddd3af9b7ecf3))
+  *  bump clean-publish from 3.4.5 to 4.0.0 ([#93](https://github.com/tbogard/itunes-search/pull/93)) ([ec002923](https://github.com/tbogard/itunes-search/commit/ec002923981b4b8fa840355f99a492689da01015))
+  *  bump eslint-plugin-jest from 26.1.3 to 26.1.5 ([#94](https://github.com/tbogard/itunes-search/pull/94)) ([9ee0195a](https://github.com/tbogard/itunes-search/commit/9ee0195a70280a07e0b1087f47054738a1ac2a13))
+  *  bump ts-node from 10.4.0 to 10.7.0 ([#85](https://github.com/tbogard/itunes-search/pull/85)) ([248ae4e3](https://github.com/tbogard/itunes-search/commit/248ae4e378419f2189538c0a7fc8514e76599555))
+  *  bump nodemon from 2.0.15 to 2.0.16 ([#86](https://github.com/tbogard/itunes-search/pull/86)) ([11352ef6](https://github.com/tbogard/itunes-search/commit/11352ef651c7686ab94080945962cfe0d00ae530))
+  *  bump terser-webpack-plugin from 5.3.0 to 5.3.1 ([#87](https://github.com/tbogard/itunes-search/pull/87)) ([1c5cee45](https://github.com/tbogard/itunes-search/commit/1c5cee45ba961e2a323f656e15d27a7370ef451a))
+  *  bump eslint-config-prettier from 8.3.0 to 8.5.0 ([#88](https://github.com/tbogard/itunes-search/pull/88)) ([9d7642af](https://github.com/tbogard/itunes-search/commit/9d7642afbfceb9020397209ac8a42304fcf95cbb))
+  *  bump webpack from 5.71.0 to 5.72.0 ([#89](https://github.com/tbogard/itunes-search/pull/89)) ([e340e71f](https://github.com/tbogard/itunes-search/commit/e340e71ffff71e5ba79ddd921bdbaa68183d94b9))
+
 ### 1.4.0 (2022-04-04)
 
 ##### Build System / Dependencies

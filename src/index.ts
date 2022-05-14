@@ -12,3 +12,4 @@ export const {
   searchPodcast,
   searchSong
 } = iTunesSearch;
+export default iTunesSearch;

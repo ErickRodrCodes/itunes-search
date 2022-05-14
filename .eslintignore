@@ -7,3 +7,4 @@ jest.config.js
 src/__tests__/*.js
 tests/**/*.test.ts
 dist/**/*.d.ts
+esbuild.config.js
